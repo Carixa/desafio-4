@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.menu-button {
+    background: salmon;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 8px;
+    padding: 10px 0;
+    margin: 20 auto; 
+}
+
+
+body {
+    font-family: "Poppins" , sans-serif;
+    background-color: #eccfde;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    height: 100%
+    padding: 2 250px;
+    height: 120px;
+
+}
+
+.header {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, 
+    rgba(148,187,233,1) 100%);
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: auto;
+}
+
+ .nav-list {
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    justify-content: ;
+}
+
+.nav-link {
+    color: #88784d;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #cf498c; 
+
+/* .lbl-menu {
+width: 50px;
+height: 30px;
+position: relative;
+cursor: pointer;
+}
+.lbl-menu #uno,#dos,#tres {
+    position: absolute;
+    content:"";
+    background-color: black;
+    width: 50px;
+    height: 5px;
+    border-radius: 5px;
+    transition: all 400 ms ease;
+}
+
+#dos {
+ top: 11px;
+}
+#tres {
+    top: 22px;
+}
+
+#btn-menu {
+    display: none;
+    justify-content: end;
+}
+
+#bnt-menu:checked ~ .lbl-menu #uno {
+    transform: rotate(140deg);
+    top: 10px;
+}
+
+#bnt-menu:checked ~ .lbl-menu #dos {
+    opacity: 0;
+}
+
+#bnt-menu:checked ~ .lbl-menu #tres {
+    transform: rotate(-140deg);
+    top: 10px;
+}
+
+ */
+}
+
