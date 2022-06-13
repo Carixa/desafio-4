@@ -1,107 +1,175 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
-.menu-button {
-    background: salmon;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    border-radius: 8px;
-    padding: 10px 0;
-    margin: 20 auto; 
+:root {
+    --menta: #f1f8ee;
+    --eton: #a3ceab;
+    --bold: 900;
+    --medium: 700;
+    --regular: 400;
+    --thin: 300;
 }
-
 
 body {
-    font-family: "Poppins" , sans-serif;
-    background-color: #eccfde;
+    width: 100vw;
+    max-width: 100%;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+}
+
+*img {
+width: 100%;
+height: auto;
+}
+
+header {
+    background: var(--menta);
+    padding: 3rem 1rem 3rem 1rem;
+}
+
+/* menu */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu i {
+    font-size: 2rem;
+    color: var(--eton);
+}
+
+.container-items {
     width: 100%;
-    height: 100vh;
+    order: 1;
+}
+
+.item {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    display: none;
+}
+
+/* terminado el menu */
+
+/* seccion 1 about */
+
+.about-section {
+    background-color: #f1f8f8;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.logo {
-    height: 100%
-    padding: 2 250px;
-    height: 120px;
 
+.about-content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
-.header {
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, 
-    rgba(148,187,233,1) 100%);
-    height: 120px;
+.tittle-img {
+    width: 350px;
+}
+
+.about-content p {
+font-size: 1.5 rem;
+text-align: center;
+width: 100%;
+font-weight: var(--thin);
+margin: 1rem 0 4rem 0;
+}
+
+.btn-hero {
+    background-color: #89b683;
+    color: antiquewhite;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.about-img: {
+    width: 70%;
+    margin: 5rem auto;
+}
+
+/* beneficios y porque*/
+
+.description-section {
+    background-color: #f1f8f8;
+padding: 8rem;
+/* display: flex; */
+text-align: center;
+justify-content: center;
+}
+.description-section h2 {
+color: #93c4a9;
+font-size: 3rem;
+text-align: center;
+font-weight: var(--medium);
+text-transform: uppercase;
+}
+.description-section p {
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 250px;
+    margin: 2rem auto 5rem auto;
+}
+
+.info-card {
+    width: 90px;
+    margin-bottom: 2rem;
+}
+.card-container {
+    display: flex; 
+    flex-direction:row;  
+    justify-content: center;
+    align-items: center; 
+    gap: 50px;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 3rem auto 3rem auto;
+    
+}
+.card {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 350px;
+    height: 400px;
+    border-radius: 2rem;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1); 
+
+}
+.card-container-trabajo {
+    display: flex;
+    flex-direction:row;  
+    justify-content: center;
     align-items: center;
-    padding: auto;
+    gap: 50px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 3rem auto 3rem auto;
 }
 
- .nav-list {
-    display: flex;
-    gap: 80px;
-    list-style: none;
-    justify-content: ;
+.card {
+    margin: 0;
 }
-
-.nav-link {
-    color: #88784d;
-}
-
-.nav-link:hover {
-    text-decoration: underline;
-    color: #cf498c; 
-
-/* .lbl-menu {
-width: 50px;
-height: 30px;
-position: relative;
-cursor: pointer;
-}
-.lbl-menu #uno,#dos,#tres {
-    position: absolute;
-    content:"";
-    background-color: black;
-    width: 50px;
-    height: 5px;
-    border-radius: 5px;
-    transition: all 400 ms ease;
-}
-
-#dos {
- top: 11px;
-}
-#tres {
-    top: 22px;
-}
-
-#btn-menu {
-    display: none;
-    justify-content: end;
-}
-
-#bnt-menu:checked ~ .lbl-menu #uno {
-    transform: rotate(140deg);
-    top: 10px;
-}
-
-#bnt-menu:checked ~ .lbl-menu #dos {
-    opacity: 0;
-}
-
-#bnt-menu:checked ~ .lbl-menu #tres {
-    transform: rotate(-140deg);
-    top: 10px;
-}
-
- */
-}
-
