@@ -227,6 +227,7 @@ background-color: #89b683;
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
+    padding: 2rem;
 
 }
 .nuestros h2 {
@@ -280,19 +281,23 @@ text-transform: uppercase;
     background-color: rgb(108, 172, 172);
     /* padding: 8rem 0; */
     gap: 3px; 
-    height: 550px;
+    height: 250px;
   }
 
 
   .logo-letras {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
   }
 
   .logo-thun {
     display: flex;
-    width: 300px;
-    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+    width: 200px;
+    height: 200px;
     align-items: center;
   }
   
@@ -306,4 +311,33 @@ text-transform: uppercase;
   
   .legales {
     max-width: 50 px;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    margin: 2rem;
+  }
+.logo-con {
+    display: block;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    height: auto;
+    margin: 0px auto;
+}
+.section-entre {
+    background-color: antiquewhite;
+}
+.container-principal {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+  .container-contacto {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+
   }
